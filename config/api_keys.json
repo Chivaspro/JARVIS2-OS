@@ -1,0 +1,220 @@
+{
+"compact_opacity": 0,
+"compact_size": 176,
+"ui_opacity": 82,
+"reactor_opacity": 100,
+"reactor_stroke_opacity": 100,
+"reactor_animation_speed": 1.0,
+"equalizer_sensitivity": 1.0,
+
+"voice_speed": 1.0,
+"voice_pitch": 0.0,
+"voice_volume": 1.0,
+"voice_mode": "realtime",
+
+"tts_engine": "gemini",
+"tts_voice": "Charon",
+"voice_name": "Charon",
+"voice_output_mode": "gemini",
+
+"onnx_voice_model": "config/voices/jarvis-high.onnx",
+"onnx_voice_config": "config/voices/jarvis-high.json",
+"onnx_voice_speaker": "default",
+"onnx_execution_provider": "cpu",
+
+"fish_audio_api_key": "",
+"fish_audio_model_id": "s2.1-pro-free",
+"fish_audio_voice_id": "14129c3e320149449d6bada6862f7338",
+"fish_audio_endpoint": "https://api.fish.audio/v1/tts",
+"fish_audio_format": "opus",
+"fish_audio_latency": "balanced",
+
+"gemini_api_key": "",
+
+"kokoro_voice": "af_heart",
+
+"elevenlabs_api_key": "",
+"elevenlabs_voice_id": "pNInz6obpgDQGcFmaJgB",
+"elevenlabs_model_id": "eleven_multilingual_v2",
+
+"assistant_name": "JARVIS",
+"user_name": "Sir",
+
+"wake_words": [
+"hey jarvis",
+"jarvis",
+"okay jarvis",
+"wake up jarvis",
+"daddy's home"
+],
+
+"ai_provider": "gemini",
+"ai_model": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+
+"openai_api_key": "",
+"anthropic_api_key": "",
+"groq_api_key": "",
+"custom_provider_name": "",
+"custom_ai_base_url": "",
+"custom_ai_api_key": "",
+"custom_ai_model": "",
+
+"ui_font": "Arial",
+"ui_color": "#73fffa",
+"web_homepage": "https://www.google.com",
+"world_monitor_refresh": 60,
+
+"memory_autosave": true,
+"panel_always_on_top": true,
+"hud_grid": true,
+
+"ui_x": -271,
+"ui_y": 279,
+
+"quick_actions": [],
+
+"chat_filter_categories": {
+"sys": true,
+"vis": true,
+"jarvis": true,
+"you": true,
+"file": true,
+"err": true,
+"warn": true
+},
+
+"features": {
+"audio_reactive": true,
+"smooth_animations": true,
+"chat_history": true,
+"compact_mode": true,
+"drag_reactor": true,
+"remember_position": true,
+"advanced_layout": true,
+"preview_tabs": true,
+
+"webview": true,
+"web_task": true,
+"world_monitor": true,
+"floating_windows": true,
+"draggable_panels": true,
+
+"enable_sfx": true,
+"autostart": true,
+
+"hide_taskbar_button": false,
+"hide_taskbar": false,
+
+"webview_engine": true,
+"webview_music": true,
+"webview_js": true,
+"webview_external": true,
+
+"memory_index": true,
+
+"wake_word": true,
+"hands_free": true,
+"push_to_talk": false,
+"voice_activity_detection": true,
+"voice_interruption": true,
+"barge_in": true,
+"background_listening": true,
+"always_on": false,
+"voice_command_recognition": true,
+"proactive_speaking": false,
+
+"computer_control": true,
+"desktop_awareness": true,
+"screen_understanding": true,
+"mouse_keyboard_control": true,
+"window_control": true,
+"terminal_control": true,
+"file_control": true,
+"desktop_automation": true,
+
+"mic_access": true,
+"camera_access": true,
+
+"panel_positions": {
+  "command_window": {
+    "x": -2006,
+    "y": 62,
+    "w": 600,
+    "h": 740
+  }
+}
+
+},
+
+"voice": {
+"providers": {
+"fishAudio": {
+"apiKey": "",
+"endpoint": "https://api.fish.audio/v1/tts",
+"model": "s2.1-pro-free",
+"voice": "14129c3e320149449d6bada6862f7338",
+"format": "opus",
+"latency": "balanced"
+},
+
+  "elevenLabs": {
+    "apiKey": "",
+    "model": "eleven_multilingual_v2",
+    "voice": "pNInz6obpgDQGcFmaJgB"
+  },
+
+  "gemini": {
+    "apiKey": "",
+    "model": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+    "voice": "Charon"
+  },
+
+  "piperOnnx": {
+    "modelPath": "config/voices/jarvis-high.onnx",
+    "configPath": "config/voices/jarvis-high.json",
+    "speaker": "default",
+    "executionProvider": "cpu"
+  },
+
+  "edgeTts": {
+    "voice": "en-GB-RyanNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz",
+    "volume": 1.0
+  },
+
+  "kokoro": {
+    "voice": "af_heart",
+    "speed": 1.0
+  },
+
+  "sapi": {
+    "voice": ""
+  }
+},
+
+"activeProvider": "gemini",
+"defaultProvider": "gemini",
+"defaultVoice": "Charon",
+
+"geminiRenderer": "native",
+
+"voice_providers_migrated": true,
+"defaultPipeline": "gemini"
+
+},
+
+"voice_pipeline_migrated": true,
+"sapi_voice": "",
+
+"chat_font_scale": 150,
+"chat_filter": "chat",
+"camera_index": "auto",
+
+"model_roles": {},
+
+"os_system": "windows",
+"hide_system_chat": true,
+
+"voice_piper_to_native_lifted": true
+}
