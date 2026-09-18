@@ -100,8 +100,8 @@ The original repository documentation targets Windows 10/11, macOS and Linux wit
 ### 1. Get the project
 
 ```bash
-git clone <your-repository-url>
-cd JARVIS-OS
+git clone https://github.com/Chivaspro/JARVIS2-OS.git
+cd JARVIS2-OS
 ```
 
 Or extract the project ZIP and open a terminal in the extracted folder.
